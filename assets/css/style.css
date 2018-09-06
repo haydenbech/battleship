@@ -1,3 +1,25 @@
+/* Global Styles */
 body {
     font-family: 'Open Sans', Arial, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+/* Grid Styles */
+table.battle-grid {
+    table-layout: fixed;
+    width: 400px;
+    height: 400px;
+}
+
+.battle-grid th,
+.battle-grid td {
+    border: 1px solid #aaa;
+}
+
+.battle-grid tr:first-child th,
+.battle-grid tr th:first-child {
+    border: none;
 }
