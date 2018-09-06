@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title><?php echo APP_NAME . ' - ' . 'Home';; ?></title>
+    <title><?php echo APP_NAME . ' - ' . $page_title; ?></title>
 </head>
 <body>
     <header>
